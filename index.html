@@ -1,38 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <title>
-            COOKPAD RESEP MASAKAN NUSANTARA
-        </title>
 
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,200;1,300;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title> Flavorsome Recipes</title>
+</head>
 
-        <header>
-            <h1>COOKPAD RESEP MASAKAN NUSANTARA</h1><br>
-            <div class="search">
-                <input type="text" id="searchInput" 
-                placeholder="Enter an ingredient...">
-                <button id ="searchButton">Search</button>
-            </div>
-        </header>
-        <div id="mealList" class="meal-list"></div>
-        <div class="modal-container">
-            <button id="recipeCloseBtn" class="close-button">&times;</button>
-            <div class="meal-details-content"></div>
-            <!--Content from js will be inserted here -->
+<body>
+    <header>
+        <div class="logo">International Cuisine Recipes</div>
+        <div class="nav-bar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="team.html">Team</a></li>
+            </ul>
         </div>
+    </header>
+    <div class="hero">
+        <div class="content"><br><br><br><br><br><br><br><br><br>
+            <h4>Unleash Your Culinary Passion</h4>
+            <h1>Discover Taste <br>Sensations</h1><br><br><br><br><br>
+            <h3>Elevate Your Cooking Game</h3>
+            <div class="button">Start Cooking</div>
+        </div>
+    </div>
+    <!----About Section Start---------------------------------->
+    <section class="about">
+        <h2>About Us</h2>
+        <div class="main">
+            <img src="gambar/20 Indian Thali Ideas.jfif" alt="">
+            <div class="about-text">
+                <p>Selamat datang di situs web resep kami, di mana inspirasi kuliner bertemu dengan kreasi lezat! Apakah 
+                    Anda seorang koki berpengalaman atau koki rumahan yang bersemangat, kami di sini untuk menyalakan selera Anda dan memandu Anda 
+                    dalam perjalanan kuliner yang menyenangkan. Koleksi resep kami yang luas mencakup berbagai macam masakan, mulai dari hidangan 
+                    klasik yang menenangkan hingga hidangan fusion yang inovatif. Setiap resep dibuat dengan cermat, diuji, dan disajikan dengan petunjuk 
+                    langkah demi langkah, memastikan bahwa bahkan juru masak pemula dapat membuat makanan yang luar biasa. Kami percaya bahwa memasak adalah bentuk seni yang menyatukan orang, dan
+                    Tujuannya adalah untuk memberdayakan Anda untuk mengeksplorasi kreativitas kuliner Anda dan membuat setiap makanan menjadi mahakarya. Jadi
+                    Ayo, jelajahi beragam koleksi resep kami, dan mari kita mulai gastronomi yang menyenangkan
+                    Petualangan bersama!</p>
 
+            </div>
+        </div>
+    </section>
+    <!-----Recipes Section Start---------------------------------->
+    <div class="recipe">
+        <h2>Featured Recipes</h2>
+        <div class="box">
+            <div class="card">
+                <img src="gambar/r1.jfif" alt="">
+                <div class="content">
+                    <h3>Pasta</h3>
+                    <P>Pasta merupakan hidangan khas Italia yang terdiri dari campuran tepung gandum, telur, dan air.</P>
+                    <button>View Recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="gambar/r2.jfif" alt="">
+                <div class="content">
+                    <h3>Sushi</h3>
+                    <P>Sushi adalah hidangan khas Jepang yang terdiri dari nasi yang dilapisi dengan potongan ikan atau makanan laut lainnya.</P>
+                    <button>View Recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="gambar/r3.jfif" alt="">
+                <div class="content">
+                    <h3>Tacos</h3>
+                    <P> Tacos adalah hidangan khas Meksiko yang terdiri dari lipatan roti tortila yang diisi dengan keju, daun selada, tomat, hingga  daging.</P>
+                    <button>View Recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="gambar/r4.jfif" alt="">
+                <div class="content">
+                    <h3>Tteokbokki</h3>
+                    <P>Tteokbokki adalah hidangan khas Korea yang terdiri dari tepung beras yang dikukus, lalu dibentuk menjadi silinder panjang sebelum dipotong-potong.</P>
+                    <button>View Recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="gambar/r5.jfif" alt="">
+                <div class="content">
+                    <h3>Kaeng Phet</h3>
+                    <P>Kaeng Phet adalah hidangan khas Thailand yang terdiri dari daging ayam, sapi dan babi yang direbus bersama santan, bumbu kari dan cabai.</P>
+                    <button>View Recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="gambar/r6.png" alt="">
+                <div class="content">
+                    <h3>Pizza</h3>
+                    <P>Pizza adalah hidangan khas Italia sejenis adonan bundar dan pipih, yang dipanggang di oven dan biasanya dilumuri saus tomat serta keju dengan bahan makanan tambahan lainnya.</P>
+                    <button>View Recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="gambar/r7.jfif" alt="">
+                <div class="content">
+                    <h3>Recipe 7</h3>
+                    <P>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</P>
+                    <button>View Recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="gambar/r8.jfif" alt="">
+                <div class="content">
+                    <h3>Recipe 8</h3>
+                    <P>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</P>
+                    <button>View Recipe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------categories section-------------------------------->
+    <div class="categories">
+        <h2>categories</h2>
+        <div class="box">
+            <div class="ca-card">
+                <img src="gambar/maincourse.jfif" alt="">
+                <div class="content">
+                    <h3>Main Courses</h3>
+                    <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div class="ca-card">
+                <img src="gambar/desserts.jfif" alt="">
+                <div class="content">
+                    <h3>Desserts</h3>
+                    <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div class="ca-card">
+                <img src="gambar/healthyeats.jfif" alt="">
+                <div class="content">
+                    <h3>Healthy Eats</h3>
+                    <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div class="ca-card">
+                <img src="gambar/baking.jfif" alt="">
+                <div class="content">
+                    <h3>Baking</h3>
+                    <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------contact section-------------------------->
+    <section class="contact">
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Address:</strong> 123 Main Street, city,city,country</p>
+            <p><strong>Phone:</strong>1234567890</p>
+            <p><strong>Email:</strong>info@example.com</p>
+        </div>
+        <div class="contact-form">
+            <h2>Contact Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message"  required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+<footer>
+    <div class="social-icons">
+        <a href="#" class="social-icon"> <i class="fab fa-facebook"></i> </a>
+        <a href="#" class="social-icon"> <i class="fab fa-twitter"></i> </a>
+        <a href="#" class="social-icon"> <i class="fab fa-instagram"></i> </a>
+    </div>
+    <h5>CopyRight © 2023 By Flavoursome Recipes </h5>
+</footer>
+<script src="script.js"></script>
+</body>
 
-
-
-        <script src="script.js"></script>
-    </body>
 </html>
-   
-    
-
-
-
-
