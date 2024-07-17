@@ -458,16 +458,16 @@ footer h5{
 /*Resep bahan dan cara membuat*/
 .resep{
    padding-left: 50px;
-   display: grid;
+   display:grid;
    grid-template-columns: 1fr auto; /* Dua kolom, kolom pertama dengan lebar 1fr, kolom kedua otomatis */
    align-items: flex-start;
 }
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr auto; /* Dua kolom, kolom pertama dengan lebar 1fr, kolom kedua otomatis */
-    position: relative;
+    grid-template-columns:1fr auto; /* Dua kolom, kolom pertama dengan lebar 1fr, kolom kedua otomatis */
+    position:relative;
     right: 420px;
-    margin-top: 120px;
+    margin-top: 90px;
   }
 .resep h1{
     font-size: 30px;
@@ -476,9 +476,9 @@ footer h5{
 .resep img{
     border-radius: 40px;
     margin-top: -40px;
-    width: 400px;
+    width: 350px;
     height: 400px;
-    padding-left: 15px;
+    padding-left: 0px;
 }
 .bahan{ 
     margin-left: 100px;
@@ -486,6 +486,7 @@ footer h5{
 }
 .cara-membuat{
     right: 400px;
+    margin-top: 20px;
 }
 
 
