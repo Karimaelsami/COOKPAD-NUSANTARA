@@ -472,11 +472,28 @@ footer h5{
 }
 .bahan{ 
     margin-left: 100px;
-
+    width: 100%;
 }
 .cara-membuat{
     right: 50px;
     margin-top: 20px;
+    
 }
 
+.cara-membuat ol {
+  list-style: decimal;
+  padding: 0 20px;
+}
+
+.cara-membuat li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    min-width: 300px; /* add this line */
+    max-width: 800px; /* add this line */
+}
+.cara-membuat li span {
+    display: inline;
+  }
 
