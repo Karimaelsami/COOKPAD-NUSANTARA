@@ -445,6 +445,7 @@ footer h5{
     object-fit: cover;
 }
 
+
 /*Resep bahan dan cara membuat*/
 .resep {
     padding-left: 50px;
@@ -452,7 +453,7 @@ footer h5{
 .judul-resep {
     font-size: 40px;
     margin-bottom: 5px;
-  }
+}
 .resep .card {
     display: inline-block;
 }  
