@@ -456,10 +456,12 @@ footer h5{
 }
 .resep .card {
     display: inline-block;
+    height: max-content;
+    width: max-content;
 }  
 .resep img {
     width: 350px;
-    height: 400px;
+    height: 415px;
     display: inline-block;
     vertical-align: top;
 }  
